@@ -52,14 +52,14 @@ The UK waste management sector presents a significant opportunity for smart, AI-
 
 ## Repository layout
 ```
-ai-smart-bin/
+TrashE-Smart-Bin/
 ├── README.md
 ├── ai-model/       YOLOv8 model, detection scripts and version history
 ├── hardware/       Components list [and Arduino code]
-├── design/
-│   ├── concept-design/      Early design prototype the bin was based on
-│   └── final-model/    3D models of the final bin
-└── media/          Video Trailer, Poster, QR code poster, logo and photos
+├── designs/
+│   ├── concept-design/   Early design prototype the bin was based on
+│   └── final-model/      3D models of the final bin
+└── media/          Video trailer, poster, QR code poster, logo and photos
 ```
 
 ## Tools
