@@ -6,9 +6,6 @@
 
 An autonomous, AI-driven smart bin that identifies waste with a camera and automatically opens the correct compartment: General Waste, Recycling or Compost. 
 
-- [Watch the demo trailer](add LinkedIn link)
-- [Project website](add website link) (a design mock-up of the product website, not connected to the bin)
-
 ## Team
 
 | Name | Contributions |
@@ -56,10 +53,9 @@ ai-smart-bin/
 ├── ai-model/       YOLOv8 model, detection scripts and version history
 ├── hardware/       Components list [and Arduino code]
 ├── design/
-│   ├── prototype/      Early design prototype the bin was based on
+│   ├── concept-design/      Early design prototype the bin was based on
 │   └── final-model/    3D models of the final bin
-├── website/        [add if the files are available]
-└── media/          Poster, QR code poster, logo and photos
+└── media/          Video Trailer, Poster, QR code poster, logo and photos
 ```
 
 ## Tools
