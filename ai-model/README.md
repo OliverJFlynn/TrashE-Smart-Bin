@@ -2,8 +2,11 @@
 
 The computer vision model behind the AI smart bin. It uses a camera to classify waste into three categories (**recycling**, **general** and **compost**) and tells the bin which lid to open. Built for a university group project (Jan to May 2026).
 
+Led by Oliver Flynn as part of the [Trash-E Smart Bin](../README.md) project.
+
+## Overview
 - **Training:** trained a custom YOLOv8 object detection model in Google Colab (30 epochs, batch size 16, 640x640 images), fine-tuning from an earlier version of the model.
-- **Data:** Took photos of real world trash to train the model
+- **Data:** collected our own photos of real waste items to train the model.
 - **Detection script:** wrote the Python script that runs the model on a live camera feed and picks the most confident detection.
 - **Stability check:** an item must be detected with at least 70% confidence for 0.5 seconds before it counts. This stops the lid opening on a one-frame misdetection.
 - **Hardware link:** the Raspberry Pi sends a single letter over USB serial (`R`, `G` or `C`) to an Arduino, which opens the matching lid. A signal is sent once per item and resets when the item leaves the camera's view.
@@ -33,7 +36,7 @@ The model classifies items into three classes: `compost`, `general` and `recycli
 Python, Ultralytics YOLOv8, OpenCV, ONNX, Picamera2, PySerial, Raspberry Pi, Arduino, Google Colab
 
 ## Data
-The training dataset is not included in this repository. [add: where it came from, e.g. our own photos labelled in Roboflow]
+Trained on our own photos of real-world waste items. The dataset is not included in this repository.
 
 ## Run it
 
@@ -64,5 +67,6 @@ If the model file is in the same folder as the script, the file name alone is en
 
 ## Limitations
 - The model was trained on a fixed set of items, so it isn't expected to work on any waste item.
+- `start.py` covers AI detection only. The barcode fallback is separate.
 - `raspberry-pi/start.py` needs Raspberry Pi hardware (Picamera2) and an Arduino on `/dev/ttyUSB0`.
 - The Arduino lid-control code is not part of this folder.
