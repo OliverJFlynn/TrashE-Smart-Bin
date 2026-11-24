@@ -2,9 +2,8 @@
 
 The computer vision model behind the AI smart bin. It uses a camera to classify waste into three categories (**recycling**, **general** and **compost**) and tells the bin which lid to open. Built for a university group project (Jan to May 2026).
 
-## What I did
 - **Training:** trained a custom YOLOv8 object detection model in Google Colab (30 epochs, batch size 16, 640x640 images), fine-tuning from an earlier version of the model.
-- **Data:** [add: collected and labelled our own photos of real waste items / used X images per class]
+- **Data:** Took photos of real world trash to train the model
 - **Detection script:** wrote the Python script that runs the model on a live camera feed and picks the most confident detection.
 - **Stability check:** an item must be detected with at least 70% confidence for 0.5 seconds before it counts. This stops the lid opening on a one-frame misdetection.
 - **Hardware link:** the Raspberry Pi sends a single letter over USB serial (`R`, `G` or `C`) to an Arduino, which opens the matching lid. A signal is sent once per item and resets when the item leaves the camera's view.
