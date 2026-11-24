@@ -5,6 +5,7 @@
 **Product:** Trash-E Smart Bin
 
 An autonomous, AI-driven smart bin that identifies waste with a camera and automatically opens the correct compartment: General Waste, Recycling or Compost. 
+Live website: https://trashe.netlify.app
 
 ## Team
 
