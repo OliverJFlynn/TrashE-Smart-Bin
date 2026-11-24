@@ -17,7 +17,7 @@ Live website: https://trashe.netlify.app
 | Oliver Flynn ([OliverJFlynn](https://github.com/OliverJFlynn)) | AI model, Raspberry Pi, Building |
 | Kudakwashe Chingwena ([KudaChingwena](https://github.com/KudaChingwena)) | Hardware design, Arduino, Raspberry Pi, Building |
 | Sochikamma Umeigbo ([umeigbosochikamma](https://github.com/umeigbosochikamma)) | Website design & creation, Building |
-| Abi-Gail Mesioye | Video trailer, building |
+| Abi-Gail Mesioye | Video trailer, Building |
 
 All four of us helped plan and build the bin.
 
