@@ -11,8 +11,8 @@ An autonomous, AI-driven smart bin that identifies waste with a camera and autom
 | Name | Contributions |
 |---|---|
 | Oliver Flynn ([OliverJFlynn](https://github.com/OliverJFlynn)) | AI model, Raspberry Pi, building |
-| Kudakwashe Chingwena | Design, Arduino, building |
-| Sochikamma Umeigbo | Website design and creation, building |
+| Kudakwashe Chingwena ([KudaChingwena](https://github.com/KudaChingwena)) | Design, Arduino, building |
+| Sochikamma Umeigbo ([umeigbosochikamma](https://github.com/umeigbosochikamma)) | Website design and creation, building |
 | Abi-Gail Mesioye | Video trailer, building |
 
 All four of us helped plan and build the bin.
