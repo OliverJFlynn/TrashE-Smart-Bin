@@ -1,4 +1,4 @@
-# AI Model: Smart Bin Waste Classifier
+# AI Model: Computer Vision Waste Classifier
 
 The computer vision model behind the AI smart bin. It uses a camera to classify waste into three categories (**recycling**, **general** and **compost**) and tells the bin which lid to open. 
 
