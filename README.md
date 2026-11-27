@@ -42,6 +42,17 @@ Beyond accurate sorting, the bin has two further features:
 
 The AI model, detection scripts and version history are in [`ai-model/`](ai-model/).
 
+## Tools
+
+| Type | Tools |
+|---|---|
+| **Languages** | Python, C |
+| **AI and computer vision** | Ultralytics YOLOv8, OpenCV, ONNX |
+| **Hardware** | Raspberry Pi, Arduino Mega |
+| **Design** | Blender, Figma |
+| **Code editor** | VS Code |
+
+
 ## Market
 
 The UK waste management sector presents a significant opportunity for smart, AI-powered solutions. According to UK government statistics, total household waste reached approximately 25.9 million tonnes in 2023, and the national recycling rate remains relatively low at 44.6% (UK Government, 2024). Recycling rates across local authorities range from 15.8% to 62.9% (MRW, 2025).
@@ -61,9 +72,6 @@ TrashE-Smart-Bin/
 │   └── final-model/      3D models of the final bin
 └── media/          Video trailer, poster, QR code poster, logo and photos
 ```
-
-## Tools
-Python, C, Ultralytics YOLOv8, OpenCV, ONNX, Raspberry Pi, Arduino Mega, Blender, Figma, VS Code
 
 ## Limitations
 - The project website is a mock-up and does not connect to the bin.
